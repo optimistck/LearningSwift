@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Is_It_Prime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The number is prime:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbg-WI-yvO">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="bcG-Zp-TUs"/>
+                                    <constraint firstAttribute="height" constant="21" id="vFr-k0-UvC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MO6-0j-EaQ">
+                                <rect key="frame" x="133" y="65" width="109" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="N8I-c0-8Fc"/>
+                                    <constraint firstAttribute="height" constant="30" id="d91-Kp-MdD"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBs-ge-ZU5">
+                                <rect key="frame" x="150" y="117" width="75" height="39"/>
+                                <state key="normal" title="Is it prime?"/>
+                                <connections>
+                                    <action selector="primeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XeZ-RV-7X0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dummy. not in use." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGU-xC-5wT">
+                                <rect key="frame" x="16" y="408" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WGU-xC-5wT" firstAttribute="top" secondItem="Tbg-WI-yvO" secondAttribute="bottom" constant="64" id="GS4-QO-R01"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JLY-aA-B0F"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KId-vb-tx6"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PBH-ta-l64"/>
+                            <constraint firstItem="oBs-ge-ZU5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qi9-B2-Wwb"/>
+                            <constraint firstItem="MO6-0j-EaQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sep-sF-20G"/>
+                            <constraint firstItem="oBs-ge-ZU5" firstAttribute="top" secondItem="MO6-0j-EaQ" secondAttribute="bottom" constant="22" id="UuH-cT-Nxx"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WQg-YV-mjE"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bTA-jz-mC9"/>
+                            <constraint firstItem="WGU-xC-5wT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eTN-ge-xqu"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ee6-RO-ZIS"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fNu-jM-XNT"/>
+                            <constraint firstItem="MO6-0j-EaQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="i17-Yw-dda"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iab-Zj-hNk"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="top" secondItem="oBs-ge-ZU5" secondAttribute="bottom" constant="167" id="l9j-uy-8b1"/>
+                            <constraint firstItem="WGU-xC-5wT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qUY-Sm-xc3"/>
+                            <constraint firstItem="Tbg-WI-yvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sQf-gu-qfS"/>
+                            <constraint firstItem="WGU-xC-5wT" firstAttribute="top" secondItem="Tbg-WI-yvO" secondAttribute="bottom" constant="64" id="wvC-yz-9T1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="InputField" destination="MO6-0j-EaQ" id="W95-Ga-akV"/>
+                        <outlet property="resultsLabel" destination="Tbg-WI-yvO" id="zwx-23-ltZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+</document>

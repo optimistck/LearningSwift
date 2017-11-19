@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281E025E1E0AC61A000A4F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E025D1E0AC61A000A4F4C /* AppDelegate.swift */; };
+		281E02601E0AC61A000A4F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E025F1E0AC61A000A4F4C /* ViewController.swift */; };
+		281E02631E0AC61A000A4F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281E02611E0AC61A000A4F4C /* Main.storyboard */; };
+		281E02651E0AC61A000A4F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281E02641E0AC61A000A4F4C /* Assets.xcassets */; };
+		281E02681E0AC61A000A4F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281E02661E0AC61A000A4F4C /* LaunchScreen.storyboard */; };
+		281E02701E0AC6C1000A4F4C /* bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 281E026F1E0AC6C1000A4F4C /* bach.jpg */; };
+		281E02721E0AC814000A4F4C /* bach-friedman-sheepmaysafelygraze-bisotti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281E02711E0AC814000A4F4C /* bach-friedman-sheepmaysafelygraze-bisotti.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		281E025A1E0AC61A000A4F4C /* Back To Bach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Back To Bach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		281E025D1E0AC61A000A4F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		281E025F1E0AC61A000A4F4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		281E02621E0AC61A000A4F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281E02641E0AC61A000A4F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281E02671E0AC61A000A4F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281E02691E0AC61A000A4F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281E026F1E0AC6C1000A4F4C /* bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach.jpg; sourceTree = "<group>"; };
+		281E02711E0AC814000A4F4C /* bach-friedman-sheepmaysafelygraze-bisotti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bach-friedman-sheepmaysafelygraze-bisotti.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281E02571E0AC61A000A4F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281E02511E0AC61A000A4F4C = {
+			isa = PBXGroup;
+			children = (
+				281E025C1E0AC61A000A4F4C /* Back To Bach */,
+				281E025B1E0AC61A000A4F4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281E025B1E0AC61A000A4F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281E025A1E0AC61A000A4F4C /* Back To Bach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281E025C1E0AC61A000A4F4C /* Back To Bach */ = {
+			isa = PBXGroup;
+			children = (
+				281E026F1E0AC6C1000A4F4C /* bach.jpg */,
+				281E02711E0AC814000A4F4C /* bach-friedman-sheepmaysafelygraze-bisotti.mp3 */,
+				281E025D1E0AC61A000A4F4C /* AppDelegate.swift */,
+				281E025F1E0AC61A000A4F4C /* ViewController.swift */,
+				281E02611E0AC61A000A4F4C /* Main.storyboard */,
+				281E02641E0AC61A000A4F4C /* Assets.xcassets */,
+				281E02661E0AC61A000A4F4C /* LaunchScreen.storyboard */,
+				281E02691E0AC61A000A4F4C /* Info.plist */,
+			);
+			path = "Back To Bach";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281E02591E0AC61A000A4F4C /* Back To Bach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281E026C1E0AC61A000A4F4C /* Build configuration list for PBXNativeTarget "Back To Bach" */;
+			buildPhases = (
+				281E02561E0AC61A000A4F4C /* Sources */,
+				281E02571E0AC61A000A4F4C /* Frameworks */,
+				281E02581E0AC61A000A4F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Back To Bach";
+			productName = "Back To Bach";
+			productReference = 281E025A1E0AC61A000A4F4C /* Back To Bach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281E02521E0AC61A000A4F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Constantin;
+				TargetAttributes = {
+					281E02591E0AC61A000A4F4C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 281E02551E0AC61A000A4F4C /* Build configuration list for PBXProject "Back To Bach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281E02511E0AC61A000A4F4C;
+			productRefGroup = 281E025B1E0AC61A000A4F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281E02591E0AC61A000A4F4C /* Back To Bach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281E02581E0AC61A000A4F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281E02681E0AC61A000A4F4C /* LaunchScreen.storyboard in Resources */,
+				281E02701E0AC6C1000A4F4C /* bach.jpg in Resources */,
+				281E02651E0AC61A000A4F4C /* Assets.xcassets in Resources */,
+				281E02631E0AC61A000A4F4C /* Main.storyboard in Resources */,
+				281E02721E0AC814000A4F4C /* bach-friedman-sheepmaysafelygraze-bisotti.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281E02561E0AC61A000A4F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281E02601E0AC61A000A4F4C /* ViewController.swift in Sources */,
+				281E025E1E0AC61A000A4F4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		281E02611E0AC61A000A4F4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281E02621E0AC61A000A4F4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281E02661E0AC61A000A4F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281E02671E0AC61A000A4F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281E026A1E0AC61A000A4F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		281E026B1E0AC61A000A4F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281E026D1E0AC61A000A4F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Back To Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iFirebrand.Back-To-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		281E026E1E0AC61A000A4F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Back To Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iFirebrand.Back-To-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281E02551E0AC61A000A4F4C /* Build configuration list for PBXProject "Back To Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281E026A1E0AC61A000A4F4C /* Debug */,
+				281E026B1E0AC61A000A4F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281E026C1E0AC61A000A4F4C /* Build configuration list for PBXNativeTarget "Back To Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281E026D1E0AC61A000A4F4C /* Debug */,
+				281E026E1E0AC61A000A4F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281E02521E0AC61A000A4F4C /* Project object */;
+}
